@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct TheMoviesApp: App {
+    //MARK: - PROPERTIES
+    
+    
+    //MARK: - BODY
     var body: some Scene {
         WindowGroup {
             ContentView()

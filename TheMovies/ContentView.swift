@@ -21,9 +21,9 @@ struct ContentView: View {
                 .navigationBarItems(trailing: HStack {
                     settingsButton
                 })
-                .sheet(isPresented: $showSettings, content: { Text("SettingsView")
-                })
-        }
+                .sheet(isPresented: $showSettings, content: { SettingsView(isPresented: $showSettings)
+        })
+    }
     }
     
     private var settingsButton: some View {
