@@ -18,7 +18,7 @@ struct TempImageCache: ImageCache {
         return cache
     }()
     
-    subscript(_ url: URL) -> UIImage?
+    subscript(_ url: URL) -> UIImage? {
     get {
         cache.object(forKey: url as NSURL)
     }
@@ -26,4 +26,5 @@ struct TempImageCache: ImageCache {
         newValue == nil ? cache.removeObject(forKey: url as NSURL) : cache.setObject(newValue!, forKey: url as NSURL)
     }
     
+}
 }
