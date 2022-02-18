@@ -26,6 +26,9 @@ struct MovieCell: View {
                     movieReleaseDate
                     
                 }//HSTACK
+                
+                movieOverview
+                
             }//VSTACK
         }
     }
@@ -75,5 +78,11 @@ struct MovieCell: View {
         Text(movie.release_date ?? "")
             .foregroundColor(.black)
             .font(.subheadline)
+    }
+    
+    private var movieOverview: some View {
+        Text(movie.overview ?? "")
+            .font(.body)
+            .foregroundColor(Color.gray)
     }
 }
