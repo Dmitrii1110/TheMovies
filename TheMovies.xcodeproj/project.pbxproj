@@ -28,6 +28,7 @@
 		B23F60FD27BD8111004F38D1 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23F60FC27BD8111004F38D1 /* ImageCache.swift */; };
 		B2F8487A27BE224E004198C0 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8487927BE224E004198C0 /* EnvironmentValues+ImageCache.swift */; };
 		B2F8487C27BE23DF004198C0 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8487B27BE23DF004198C0 /* AsyncImage.swift */; };
+		B2F8487E27BED347004198C0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8487D27BED346004198C0 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B23F60FC27BD8111004F38D1 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		B2F8487927BE224E004198C0 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
 		B2F8487B27BE23DF004198C0 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		B2F8487D27BED346004198C0 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				B23F60DF27BB9B7C004F38D1 /* HomeTabView.swift */,
 				B23F60E327BBDF7C004F38D1 /* MoviesView.swift */,
 				B23F60E527BBDFA9004F38D1 /* DiscoverView.swift */,
+				B2F8487D27BED346004198C0 /* MovieCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				B23F60F927BD7652004F38D1 /* MovieReviewsManager.swift in Sources */,
 				B2F8487A27BE224E004198C0 /* EnvironmentValues+ImageCache.swift in Sources */,
 				B23F60E227BBA072004F38D1 /* SettingsView.swift in Sources */,
+				B2F8487E27BED347004198C0 /* MovieCell.swift in Sources */,
 				B23F60F527BD4B5C004F38D1 /* MovieURL.swift in Sources */,
 				B23F60CF27BB96C4004F38D1 /* ContentView.swift in Sources */,
 				B23F60CD27BB96C4004F38D1 /* TheMoviesApp.swift in Sources */,
