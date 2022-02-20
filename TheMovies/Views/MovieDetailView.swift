@@ -13,8 +13,6 @@ struct MovieDetailView: View {
     @StateObject private var loader: ImageLoader
     @ObservedObject private var movieManager = MovieDownloadManager()
     
-    
-    //MARK: - BODY
     var movie: Movie
     
     init(movie: Movie) {
@@ -22,6 +20,7 @@ struct MovieDetailView: View {
         _loader = StateObject(wrappedValue: ImageLoader(url: URL(string: movie.posterPath)!, cache: Environment(\.imageCache).wrappedValue))
     }
     
+    //MARK: - BODY
     var body: some View {
         ZStack(alignment: .top) {
             backgroundView
@@ -89,7 +88,7 @@ struct MovieDetailView: View {
     private var reviewLink: some View {
         VStack {
             Divider()
-            NavigationLink(destination: Text("Some review")) {
+            NavigationLink(destination: MovieReviewView(movie: movie)) {
                 HStack {
                     Text("Reviews")
                         .font(.body)

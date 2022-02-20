@@ -30,6 +30,7 @@
 		B2F8487C27BE23DF004198C0 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8487B27BE23DF004198C0 /* AsyncImage.swift */; };
 		B2F8487E27BED347004198C0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8487D27BED346004198C0 /* MovieCell.swift */; };
 		B2F8488027C00D2F004198C0 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8487F27C00D2F004198C0 /* MovieDetailView.swift */; };
+		B2F8488227C02D7D004198C0 /* MovieReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F8488127C02D7D004198C0 /* MovieReviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		B2F8487B27BE23DF004198C0 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		B2F8487D27BED346004198C0 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		B2F8487F27C00D2F004198C0 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		B2F8488127C02D7D004198C0 /* MovieReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				B23F60E527BBDFA9004F38D1 /* DiscoverView.swift */,
 				B2F8487D27BED346004198C0 /* MovieCell.swift */,
 				B2F8487F27C00D2F004198C0 /* MovieDetailView.swift */,
+				B2F8488127C02D7D004198C0 /* MovieReviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				B23F60F727BD4D99004F38D1 /* MovieDownloadManager.swift in Sources */,
 				B23F60E427BBDF7C004F38D1 /* MoviesView.swift in Sources */,
 				B23F60E027BB9B7E004F38D1 /* HomeTabView.swift in Sources */,
+				B2F8488227C02D7D004198C0 /* MovieReviewView.swift in Sources */,
 				B2F8488027C00D2F004198C0 /* MovieDetailView.swift in Sources */,
 				B2F8487C27BE23DF004198C0 /* AsyncImage.swift in Sources */,
 				B23F60F927BD7652004F38D1 /* MovieReviewsManager.swift in Sources */,

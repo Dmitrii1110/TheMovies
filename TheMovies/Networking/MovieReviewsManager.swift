@@ -9,6 +9,7 @@ import SwiftUI
 
 final class MovieReviewManager: ObservableObject {
     @Published var reviews = [Review]()
+    
     private var movie: Movie
     static var baseURL = "https://api.themoviedb.org/3/movie/"
     
@@ -17,7 +18,7 @@ final class MovieReviewManager: ObservableObject {
     }
     
     func getMovieReviews() {
-        
+        getReview(for: movie)
     }
     
     private func getReview(for movie: Movie) {
